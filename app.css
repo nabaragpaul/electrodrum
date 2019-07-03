@@ -1,0 +1,50 @@
+
+body {
+    background: url('./sounds/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keys {
+    min-height: 96vh;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: -webkit-fill-available;
+}
+
+.key {
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1.3);
+    border-color: #24fc14;
+    box-shadow: 0 0 20px #ffc600;
+}
+
+kbd {
+    display: block;font-size: 40px;
+}
+
+.sound {
+    font-size: 12px;
+}
+
+.spacekick {
+    width: 68%;
+    position: absolute;
+    left: 13%;
+    top: 66%;
+}
