@@ -6,7 +6,7 @@ body {
 }
 
 .keys {
-    min-height: 96vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     display: inline-flex;
@@ -48,3 +48,16 @@ kbd {
     left: 13%;
     top: 66%;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    opacity: 0.9;
+    width: 100%;
+    background-color: #7174da;
+    color: #2d2626;
+    text-align: center;
+    font-family: monospace;
+    padding: 8px 2px;
+ }
